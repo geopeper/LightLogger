@@ -110,7 +110,7 @@ struct ContentView: View {
             }
 
             HStack(spacing: 12) {
-                HStack(spacing: 8) {
+                HStack(spacing: 8) { 
                     TextField("輸入亮度數值…", text: $brightnessText)
                         .keyboardType(.decimalPad)
                         .textFieldStyle(.plain)
