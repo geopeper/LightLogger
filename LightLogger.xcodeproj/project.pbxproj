@@ -24,25 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CAC466832E7FE39300B719D6 /* gps_light_map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gps_light_map.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAC466902E7FE39400B719D6 /* gps_light_mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gps_light_mapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAC4669A2E7FE39500B719D6 /* gps_light_mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gps_light_mapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC466832E7FE39300B719D6 /* LightLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC466902E7FE39400B719D6 /* LightLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC4669A2E7FE39500B719D6 /* LightLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CAC466852E7FE39300B719D6 /* gps_light_map */ = {
+		CAC466852E7FE39300B719D6 /* LightLogger */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = gps_light_map;
-			sourceTree = "<group>";
-		};
-		CAC466932E7FE39400B719D6 /* gps_light_mapTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = gps_light_mapTests;
-			sourceTree = "<group>";
-		};
-		CAC4669D2E7FE39500B719D6 /* gps_light_mapUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = gps_light_mapUITests;
+			path = LightLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +65,7 @@
 		CAC4667A2E7FE39300B719D6 = {
 			isa = PBXGroup;
 			children = (
-				CAC466852E7FE39300B719D6 /* gps_light_map */,
-				CAC466932E7FE39400B719D6 /* gps_light_mapTests */,
-				CAC4669D2E7FE39500B719D6 /* gps_light_mapUITests */,
+				CAC466852E7FE39300B719D6 /* LightLogger */,
 				CAC466842E7FE39300B719D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +73,9 @@
 		CAC466842E7FE39300B719D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAC466832E7FE39300B719D6 /* gps_light_map.app */,
-				CAC466902E7FE39400B719D6 /* gps_light_mapTests.xctest */,
-				CAC4669A2E7FE39500B719D6 /* gps_light_mapUITests.xctest */,
+				CAC466832E7FE39300B719D6 /* LightLogger.app */,
+				CAC466902E7FE39400B719D6 /* LightLoggerTests.xctest */,
+				CAC4669A2E7FE39500B719D6 /* LightLoggerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAC466822E7FE39300B719D6 /* gps_light_map */ = {
+		CAC466822E7FE39300B719D6 /* LightLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAC466A42E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "gps_light_map" */;
+			buildConfigurationList = CAC466A42E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "LightLogger" */;
 			buildPhases = (
 				CAC4667F2E7FE39300B719D6 /* Sources */,
 				CAC466802E7FE39300B719D6 /* Frameworks */,
@@ -108,18 +96,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CAC466852E7FE39300B719D6 /* gps_light_map */,
+				CAC466852E7FE39300B719D6 /* LightLogger */,
 			);
-			name = gps_light_map;
+			name = LightLogger;
 			packageProductDependencies = (
 			);
 			productName = gps_light_map;
-			productReference = CAC466832E7FE39300B719D6 /* gps_light_map.app */;
+			productReference = CAC466832E7FE39300B719D6 /* LightLogger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CAC4668F2E7FE39400B719D6 /* gps_light_mapTests */ = {
+		CAC4668F2E7FE39400B719D6 /* LightLoggerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAC466A72E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "gps_light_mapTests" */;
+			buildConfigurationList = CAC466A72E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "LightLoggerTests" */;
 			buildPhases = (
 				CAC4668C2E7FE39400B719D6 /* Sources */,
 				CAC4668D2E7FE39400B719D6 /* Frameworks */,
@@ -130,19 +118,16 @@
 			dependencies = (
 				CAC466922E7FE39400B719D6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CAC466932E7FE39400B719D6 /* gps_light_mapTests */,
-			);
-			name = gps_light_mapTests;
+			name = LightLoggerTests;
 			packageProductDependencies = (
 			);
 			productName = gps_light_mapTests;
-			productReference = CAC466902E7FE39400B719D6 /* gps_light_mapTests.xctest */;
+			productReference = CAC466902E7FE39400B719D6 /* LightLoggerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CAC466992E7FE39500B719D6 /* gps_light_mapUITests */ = {
+		CAC466992E7FE39500B719D6 /* LightLoggerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAC466AA2E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "gps_light_mapUITests" */;
+			buildConfigurationList = CAC466AA2E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "LightLoggerUITests" */;
 			buildPhases = (
 				CAC466962E7FE39500B719D6 /* Sources */,
 				CAC466972E7FE39500B719D6 /* Frameworks */,
@@ -153,14 +138,11 @@
 			dependencies = (
 				CAC4669C2E7FE39500B719D6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CAC4669D2E7FE39500B719D6 /* gps_light_mapUITests */,
-			);
-			name = gps_light_mapUITests;
+			name = LightLoggerUITests;
 			packageProductDependencies = (
 			);
 			productName = gps_light_mapUITests;
-			productReference = CAC4669A2E7FE39500B719D6 /* gps_light_mapUITests.xctest */;
+			productReference = CAC4669A2E7FE39500B719D6 /* LightLoggerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CAC4667E2E7FE39300B719D6 /* Build configuration list for PBXProject "gps_light_map" */;
+			buildConfigurationList = CAC4667E2E7FE39300B719D6 /* Build configuration list for PBXProject "LightLogger" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +182,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAC466822E7FE39300B719D6 /* gps_light_map */,
-				CAC4668F2E7FE39400B719D6 /* gps_light_mapTests */,
-				CAC466992E7FE39500B719D6 /* gps_light_mapUITests */,
+				CAC466822E7FE39300B719D6 /* LightLogger */,
+				CAC4668F2E7FE39400B719D6 /* LightLoggerTests */,
+				CAC466992E7FE39500B719D6 /* LightLoggerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +240,12 @@
 /* Begin PBXTargetDependency section */
 		CAC466922E7FE39400B719D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CAC466822E7FE39300B719D6 /* gps_light_map */;
+			target = CAC466822E7FE39300B719D6 /* LightLogger */;
 			targetProxy = CAC466912E7FE39400B719D6 /* PBXContainerItemProxy */;
 		};
 		CAC4669C2E7FE39500B719D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CAC466822E7FE39300B719D6 /* gps_light_map */;
+			target = CAC466822E7FE39300B719D6 /* LightLogger */;
 			targetProxy = CAC4669B2E7FE39500B719D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +460,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gps_light_map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gps_light_map";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightLogger";
 			};
 			name = Debug;
 		};
@@ -500,7 +482,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gps_light_map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gps_light_map";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightLogger";
 			};
 			name = Release;
 		};
@@ -545,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAC4667E2E7FE39300B719D6 /* Build configuration list for PBXProject "gps_light_map" */ = {
+		CAC4667E2E7FE39300B719D6 /* Build configuration list for PBXProject "LightLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAC466A22E7FE39500B719D6 /* Debug */,
@@ -554,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAC466A42E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "gps_light_map" */ = {
+		CAC466A42E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "LightLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAC466A52E7FE39500B719D6 /* Debug */,
@@ -563,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAC466A72E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "gps_light_mapTests" */ = {
+		CAC466A72E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "LightLoggerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAC466A82E7FE39500B719D6 /* Debug */,
@@ -572,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAC466AA2E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "gps_light_mapUITests" */ = {
+		CAC466AA2E7FE39500B719D6 /* Build configuration list for PBXNativeTarget "LightLoggerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAC466AB2E7FE39500B719D6 /* Debug */,
