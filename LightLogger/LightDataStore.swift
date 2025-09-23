@@ -48,7 +48,7 @@ final class LightDataStore: ObservableObject {
             lines.append(line)
         }
         let csv = lines.joined(separator: "\n")
-        return ("light_gps_\(dateStamp()).csv", Data(csv.utf8))
+        return ("light_data_\(dateStamp()).csv", Data(csv.utf8))
     }
 
     func buildGeoJSON() -> (filename: String, data: Data) {
@@ -75,7 +75,7 @@ final class LightDataStore: ObservableObject {
             "features": features
         ]
         let data = try! JSONSerialization.data(withJSONObject: fc, options: [.prettyPrinted])
-        return ("light_gps_\(dateStamp()).geojson", data)
+        return ("light_data_\(dateStamp()).geojson", data)
     }
 
     // MARK: - Helpers
