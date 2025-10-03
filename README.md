@@ -2,8 +2,6 @@
 
 LightLogger is an iOS application built with Swift for collecting geographic data that combines precise GPS coordinates with user-entered brightness values. It is designed for field data collection and supports exporting records for later analysis.
 
-(You can also use it to collect other geographical data like temperature.)
-
 This project was developed to support the **NTU LightMap** initiative, which visualizes light data in relation to ecological protection zones and crime-prone areas using WebGIS. LightLogger provides a simple way to collect consistent and accurate data in the field.
 
 ## Screenshots
