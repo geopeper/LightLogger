@@ -33,7 +33,7 @@ LightLogger/
 3. Enter brightness values and save records.
 4. Export collected data as CSV or GeoJSON for further use.
 
-## Data in QGIS
+## Simulation Data in QGIS
 <img width="1256" height="780" alt="Screenshot 2025-09-22 at 11 52 09 PM" src="https://github.com/user-attachments/assets/0ef2b8d5-b07c-4d58-ada5-32bd0e368100" />
 
 
